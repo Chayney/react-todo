@@ -4,8 +4,8 @@ import { useState } from 'react';
 
 export const Todo = () => {
     const [todoText, setTodoText] = useState('');
-    const [incompleteTodos, setIncompleteTodos] = useState(['Todoです1', 'Todoです2']);
-    const [completeTodos, setCompleteTodos] = useState(['Todoでした1', 'Todoでした2']);
+    const [incompleteTodos, setIncompleteTodos] = useState(['勉強', '夕食']);
+    const [completeTodos, setCompleteTodos] = useState(['朝食', '運動']);
 
     const onChangeTodoText = (event) => setTodoText(event.target.value);
     const onClickAdd = () => {
