@@ -3,9 +3,13 @@ body {
     color: #666;
 }
 
+.page-title {
+    text-align: center;
+}
+
 input {
     border-radius: 8px;
-    width: 70%;
+    width: 50%;
     border: none;
     padding: 6px 16px;
 }
@@ -64,4 +68,9 @@ button:hover {
 
 .todo-item {
     margin: 6px;
+}
+
+.error {
+    color: red;
+    text-align: center;
 }
