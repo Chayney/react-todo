@@ -3,7 +3,7 @@ export const CompleteTodo = (props) => {
     const { todos, onClickBack } = props;
     return (
         <div className="complete-area">
-            <p className="title">完了のTodo</p>
+            <p className="title">完了</p>
             <ul>
                 {todos.map((todo, index) => (
                     <li key={todo}>
