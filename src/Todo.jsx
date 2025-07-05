@@ -9,8 +9,8 @@ import { SearchTodo } from './components/SearchTodo.jsx';
 
 export const Todo = () => {
     const [todoText, setTodoText] = useState('');
-    const [incompleteTodos, setIncompleteTodos] = useState(['勉強', '夕食']);
-    const [completeTodos, setCompleteTodos] = useState(['朝食', '運動']);
+    const [incompleteTodos, setIncompleteTodos] = useState([]);
+    const [completeTodos, setCompleteTodos] = useState([]);
     const [searchText, setSearchText] = useState('');
     const [searchKeyword, setSearchKeyword] = useState('');
     const [isReset, setIsReset] = useState(false);
